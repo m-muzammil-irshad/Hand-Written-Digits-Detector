@@ -57,7 +57,7 @@ A deep learning web app that detects **handwritten digits (0–9)** from uploade
 
 The model is a **Convolutional Neural Network (CNN)** built with Keras/TensorFlow.
 
-| Layer | Details |
+| Layer | Details |                                          
 |---|---|
 | Conv2D × 4 | filters=10, kernel=3×3, activation=ReLU |
 | MaxPooling2D × 2 | pool_size=2×2 |
@@ -69,7 +69,7 @@ The model is a **Convolutional Neural Network (CNN)** built with Keras/TensorFlo
 | Dataset | MNIST |
 | Training Samples | 60,000 |
 | Test Samples | 10,000 |
-| Epochs | 5 |
+| Epochs | 15 |
 | Test Accuracy | ~98% |
 
 ---
@@ -154,7 +154,7 @@ Hand_Written_Digits_Detector/
 
 ### 📬 Contact
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cornerofcodes00@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muzammilirshad261@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-muzammil-irshad-05b863333)
 ---
 
