@@ -57,20 +57,35 @@ A deep learning web app that detects **handwritten digits (0–9)** from uploade
 
 The model is a **Convolutional Neural Network (CNN)** built with Keras/TensorFlow.
 
-| Layer | Details |                                          
-|---|---|
-| Conv2D × 4 | filters=10, kernel=3×3, activation=ReLU |
+<table>
+<tr>
+<td>
+
+**Model Architecture**
+
+| Layer | Details |
+|:---|:---|
+| Conv2D × 4 | filters=10, kernel=3×3, ReLU |
 | MaxPooling2D × 2 | pool_size=2×2 |
 | Flatten | — |
-| Dense (output) | 10 units, activation=Softmax |
+| Dense (output) | 10 units, Softmax |
+
+</td>
+<td>
+
+**Training Performance**
 
 | Metric | Value |
-|---|---|
+|:---|:---|
 | Dataset | MNIST |
 | Training Samples | 60,000 |
 | Test Samples | 10,000 |
 | Epochs | 15 |
 | Test Accuracy | ~98% |
+
+</td>
+</tr>
+</table>
 
 ---
 
