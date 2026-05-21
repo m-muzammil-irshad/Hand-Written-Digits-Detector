@@ -1,0 +1,19 @@
+# ── Core ML ──────────────────────────────────────────────────────────────────
+# TF 2.15 is the last version that ships pre-built wheels for HF Spaces (CPU)
+# Do NOT use tensorflow-cpu separately — it conflicts with tensorflow on HF
+tensorflow==2.15.0
+
+# ── Image processing ─────────────────────────────────────────────────────────
+# opencv-python-headless: no GUI deps (X11 etc.) — required on HF Spaces
+# opencv-python causes ImportError on headless servers
+opencv-python-headless==4.9.0.80
+
+# Pillow: for PIL.Image used in Gradio image input
+Pillow==10.2.0
+
+# ── Gradio ───────────────────────────────────────────────────────────────────
+# 4.x is stable on HF Spaces; 5.x has occasional breaking changes
+gradio==4.44.1
+
+# ── Numerics ─────────────────────────────────────────────────────────────────
+numpy==1.26.4
