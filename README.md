@@ -30,7 +30,11 @@ A deep learning web app that detects **handwritten digits (0–9)** from uploade
 
 ### 🌐 Live Demo
 
-👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/mmuzammilirshad/Hand_Written_Digits_Detector)
+<p align="center">
+  <a href="https://huggingface.co/spaces/mmuzammilirshad/Hand_Written_Digits_Detector">
+    <img src="https://img.shields.io/badge/🤗%20Try%20on%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black"/>
+  </a>
+</p>
 
 ---
 
