@@ -129,7 +129,7 @@ Hand_Written_Digits_Detector/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/Muzammil-ML-Projects/Hand_Written_Digits_Detector.git
+   git clone https://github.com/m-muzammil-irshad/Hand-Written-Digits-Detector.git
    cd Hand_Written_Digits_Detector
    ```
 
